@@ -10,12 +10,7 @@
 - git remote add origin git@github.com:path_name
     - *Where you want to push*
     - for eg. *git remote add origin git@github.com:vinayprabhakarx/Machine-Learning.git*
-- git branch -M main
-    - *In which branch to push*
-    - The -M option is used to force the rename even if the new branch name already exists. This command is useful when you want to change the name of your primary branch from master to main
-- git push -u origin main
-  - The -u option is used to set the upstream branch for the current branch. This means that in future, you can simply use *"git push"* instead of "git push -u origin main"
-  #### SSH key genrate
+ #### SSH key genrate
   - ssh-keygen -t ed25519 -C "your_email@gmail.com"
     - *The commands you provided are used to generate an SSH key.*
   -  clip < ~/.ssh/id_ed25519.pub **_or_**
@@ -26,6 +21,11 @@
         - Click on “New SSH key”.
         - Give a title to the key and paste the public key in the “Key” field.
         - Click on “Add SSH key”.
+- git branch -M main
+    - *In which branch to push*
+    - The -M option is used to force the rename even if the new branch name already exists. This command is useful when you want to change the name of your primary branch from master to main
+- git push -u origin main
+  - The -u option is used to set the upstream branch for the current branch. This means that in future, you can simply use *"git push"* instead of "git push -u origin main"
 ## FOR ADD, COMMIT, PUSH, FULL AND DELETE CMD
 1. git status
 - used to display the current status of the Git repository
