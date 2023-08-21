@@ -49,4 +49,4 @@
 10. git pull 
  - used to fetch and merge changes from the remote repository to the local repository. This command updates the local repository with the changes made in the remote repository.
 11. rm -rf .git
-- used to remove the Git repository from the current working directory. This command deletes the .git directory and all its contents. (*WARNING! THIS CMD USE WITH CAUTION NOR THEN USE YOUR ALL FILE OF GIT REPO*)
+- used to remove the Git repository from the current working directory. This command deletes the .git directory and all its contents. (*WARNING! THIS CMD USE WITH CAUTION NOR THEN LOOSE YOUR ALL FILE OF GIT REPO*)
