@@ -14,7 +14,7 @@
     - *In which branch to push*
     - The -M option is used to force the rename even if the new branch name already exists. This command is useful when you want to change the name of your primary branch from master to main
 - git push -u origin main
-  - The -u option is used to set the upstream branch for the current branch. This means that in future, you can simply use git push instead of git push -u origin main
+  - The -u option is used to set the upstream branch for the current branch. This means that in future, you can simply use *"git push"* instead of "git push -u origin main"
   #### SSH key genrate
   - ssh-keygen -t ed25519 -C "your_email@gmail.com"
     - *The commands you provided are used to generate an SSH key.*
