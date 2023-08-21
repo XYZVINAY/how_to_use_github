@@ -42,7 +42,7 @@
 7. git commit -a -m " message"
 - used to commit all changes made to the Git repository. This command creates a new commit with a message that describes the changes made in the commit.
 - The -a option is used to stage all changes before committing them.
-8. git diff --stage
+8. git diff --staged
 - This command shows the differences between the working directory and the staging area.
 9. git push 
 - used to push the changes made in the local branch to the remote repository. This command pushes the changes made in the local branch to the remote repository named origin.
