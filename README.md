@@ -2,7 +2,7 @@
 ### *FOR FIRST COMMIT*
 - git init
   - *The command git init is used to initialize a new Git repository. This command creates a new .git subdirectory in the current working directory and sets up the necessary files and directories for Git to start tracking changes.*
-## 2. For setting user
+## FOR CONNECT GIT TO GITHUB
 - git config --global user.name "VINAY"
  - *to set the name of the user who made the commits in the repository.* 
 - git config --global user.mail "email@gmail.com"
