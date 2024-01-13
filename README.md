@@ -34,7 +34,9 @@
 3. git add --a
 -  used to stage all changes made to the Git repository.
 4. git add .
-- used to stage all changes made to the Git repository. This command adds all changes to the staging area
+- used to stage all changes made to the Git repository. This command adds all changes to the staging area.
+5. git reset file.name
+  - Use for untrack the single file from stagging area
 5. git commit -m " here any message write, what the changes here "
   -used to commit the changes made to the Git repository. This command creates a new commit with a message that describes the changes made in the commit.
 6. git log
@@ -46,7 +48,7 @@
 - This command shows the differences between the working directory and the staging area.
 9. push --set-upstream origin master
   - Once you set use this command after you only use
-    -- *git push*
+    - *git push*
 - used to push the changes made in the local branch to the remote repository. This command pushes the changes made in the local branch to the remote repository named origin.
 10. git pull 
  - used to fetch and merge changes from the remote repository to the local repository. This command updates the local repository with the changes made in the remote repository.
