@@ -26,6 +26,8 @@
     - The -M option is used to force the rename even if the new branch name already exists. This command is useful when you want to change the name of your primary branch from master to main
 - git push -u origin main
   - The -u option is used to set the upstream branch for the current branch. This means that in future, you can simply use *"git push"* instead of "git push -u origin main"
+- push --set-upstream origin master
+  - used to push the changes made in the local branch to the remote repository. This command pushes the changes made in the local branch to the remote repository named origin.
 ## FOR ADD, COMMIT, PUSH, FULL AND DELETE CMD
 1. git status
 - used to display the current status of the Git repository
@@ -37,20 +39,20 @@
 - used to stage all changes made to the Git repository. This command adds all changes to the staging area.
 5. git reset file.name
   - Use for untrack the single file from stagging area
-5. git commit -m " here any message write, what the changes here "
+6. git commit -m " here any message write, what the changes here "
   -used to commit the changes made to the Git repository. This command creates a new commit with a message that describes the changes made in the commit.
-6. git log
+7. git log
 - to check commit status
-7. git commit -a -m " message"
+8. git commit -a -m " message"
 - used to commit all changes made to the Git repository. This command creates a new commit with a message that describes the changes made in the commit.
 - The -a option is used to stage all changes before committing them.
-8. git diff --staged
+9. git diff --staged
 - This command shows the differences between the working directory and the staging area.
-9. push --set-upstream origin master
+10. push --set-upstream origin master
   - Once you set use this command after you only use
     - *git push*
 - used to push the changes made in the local branch to the remote repository. This command pushes the changes made in the local branch to the remote repository named origin.
-10. git pull 
+11. git pull 
  - used to fetch and merge changes from the remote repository to the local repository. This command updates the local repository with the changes made in the remote repository.
-11. rm -rf .git
+12. rm -rf .git
 - used to remove the Git repository from the current working directory. This command deletes the .git directory and all its contents. (*WARNING! THIS CMD USE WITH CAUTION NOR THEN LOOSE YOUR ALL FILE OF GIT REPO*)
