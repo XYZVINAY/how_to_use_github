@@ -46,7 +46,7 @@
 - This command shows the differences between the working directory and the staging area.
 9. push --set-upstream origin master
   - Once you set use this command after you only use
-  - *git push*
+    -- *git push*
 - used to push the changes made in the local branch to the remote repository. This command pushes the changes made in the local branch to the remote repository named origin.
 10. git pull 
  - used to fetch and merge changes from the remote repository to the local repository. This command updates the local repository with the changes made in the remote repository.
