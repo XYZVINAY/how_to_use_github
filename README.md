@@ -7,9 +7,9 @@
  - *to set the name of the user who made the commits in the repository.* 
 - git config --global user.mail "email@gmail.com"
    - *to set the email address of the user who made the commits in the repository.*
-- git remote add origin git@github.com:path_name
+- git remote add origin https://github.com/path_name.git
     - *Where you want to push*
-    - for eg. *git remote add origin git@github.com:vinayprabhakarx/Machine-Learning.git*
+    - for eg. *git remote add origin https://github.com/XYZVINAY/VINAY.git*
  #### SSH key genrate
   - ssh-keygen -t ed25519 -C "your_email@gmail.com"
     - *The commands you provided are used to generate an SSH key.*
@@ -44,7 +44,9 @@
 - The -a option is used to stage all changes before committing them.
 8. git diff --staged
 - This command shows the differences between the working directory and the staging area.
-9. git push 
+9. push --set-upstream origin master
+  - Once you set use this command after you only use
+  - *git push*
 - used to push the changes made in the local branch to the remote repository. This command pushes the changes made in the local branch to the remote repository named origin.
 10. git pull 
  - used to fetch and merge changes from the remote repository to the local repository. This command updates the local repository with the changes made in the remote repository.
